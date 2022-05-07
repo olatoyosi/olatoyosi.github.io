@@ -14,6 +14,7 @@ const usePagination = (data, perPage) => {
         if (currentPage > 1) {
             paginate(currentPage - 1);
         }
+    //    eslint-disable-next-line
     }, [currentPage])
 
     const handleNext = useCallback(() => {
