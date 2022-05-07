@@ -4,7 +4,7 @@ import products from "../db/products";
 
 const ProductPage = () => {
     return (
-        <div className="">
+        <div className="mb-10">
             <h1 className="text-center text-2xl mt-5 font-bold text-gray-700">Product Page</h1>
             <ProductList>
                 {products.map((product, index) => (
