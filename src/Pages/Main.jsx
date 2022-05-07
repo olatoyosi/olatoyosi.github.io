@@ -15,13 +15,10 @@ const Main = () => {
                     className={`px-5 pt-32 md:pt-44 flex flex-wrap items-center justify-center`}>
                     <div className={`flex flex-col space-y-5 py-5 px-10 w-4/5 sm:w-1/3 mx-10 md:w-1/5`}>
                         <h2 className={`text-2xl text-gray-900 font-bold text-left tracking-wide capitalize`}>
-                            Why we are the best in our town
+                            Who are we?
                         </h2>
                         <p className={`text-left font-medium`}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Pellentesque euismod, urna eu tincidunt consectetur,
-                            nisi nisl aliquam nunc, euismod aliquam nunc nisl eu
-                            nisi.
+                            rosh global farms and consult Ltd is one that engages in the farming and value chain addition to all agricultural crops and enterprises.
                         </p>
                         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                         <a href={`#`}>
@@ -82,11 +79,23 @@ const Main = () => {
                         </div>
                         <div className="text-white">
                             <h3 className="font-semibold text-lg">Site Map</h3>
-                            <div className="flex flex-col items-start justify-start mt-5 space-y-2 text-sm font-semibold">
-                                <button className="hover:underline underline-offset-1 hover:text-green-200" >Home</button>
-                                <button className="hover:underline underline-offset-1 hover:text-green-200">Home</button>
-                                <button className="hover:underline underline-offset-1 hover:text-green-200">Home</button>
-                                <button className="hover:underline underline-offset-1 hover:text-green-200">Home</button>
+                            <div
+                                className="flex flex-col items-start justify-start mt-5 space-y-5 text-sm font-semibold">
+                                <div>
+                                    <h1 className="text-xl font-semibold mb-2">Our Mission</h1>
+                                    <p className="text-sm font-medium text-gray-50 text-left whitespace-normal">
+                                        To aid food security in Nigeria, and making food available for all Nigerians,
+                                        through our expert services of farm creation.Creation of employment for
+                                        Nigerian youths.
+                                    </p>
+                                </div>
+                                <div>
+                                    <h1 className="text-xl font-semibold mb-2">Our Vision</h1>
+                                    <p className="text-sm font-medium text-gray-50">
+                                        To be the world leading agro-expert in rending agro-services to intending and
+                                        prospective farmers
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
