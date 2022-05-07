@@ -9,7 +9,7 @@ const Nav = () => {
 
     return (
         <nav className="flex bg-green-700/70 justify-between text-xs px-5 py-2 items-center sm:px-20">
-            <h1 className='text-xl font-bold tracking-tight text-black'>Toyosi</h1>
+            <h1 className='text-xl font-bold tracking-tight text-black'>ROSH</h1>
             <div className="relative">
                 <button className="sm:hidden text-gray-700 text-xs outline-none" onClick={toggle}>
                     <AiOutlineMenu className={`w-6 h-6 ${isToggled ? "hidden":"" }`}/>

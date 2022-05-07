@@ -10,13 +10,10 @@ const Footer = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20'>
                     <div>
                         <h1 className="text-3xl font-bold text-white">
-                            <span className="text-green-200">Toy</span>osi
+                            <span className="text-green-200">RO</span>SH
                         </h1>
                         <p className="text-gray-200 mt-5 text-sm opacity-70">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Pellentesque euismod, urna eu tincidunt consectetur,
-                            nisi nisl aliquam nunc, euismod aliquam nunc nisl eu
-                            nisi.
+                            We Engages In The Farming And Value Chain Addition To All Agricultural Crops And Enterprises.
                         </p>
                     </div>
                     <div>
