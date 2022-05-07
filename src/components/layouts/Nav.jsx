@@ -19,7 +19,7 @@ const Nav = () => {
                     <NavMenu to={{pathname: "/", hash: "#top",}}>Home</NavMenu>
                     <NavMenu to={{pathname: "/", hash: "#about",}}>About</NavMenu>
                     <NavMenu to={{pathname: "/", hash: "#contact",}}>Contact</NavMenu>
-                    <NavMenu to={{pathname: "/", hash: "#products",}}>Products</NavMenu>
+                    <NavMenu to={{pathname: "/products"}}>Products</NavMenu>
                 </div>
             </div>
         </nav>
