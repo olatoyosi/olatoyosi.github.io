@@ -13,10 +13,7 @@ const Testimonial = () => {
                           What Our Customers Say
                       </h2>
                       <p className={`text-sm font-medium -tracking-wide mt-5 text-gray-500 text-center`}>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                          Pellentesque euismod, urna eu tincidunt consectetur,
-                          nisi nisl aliquam nunc, euismod aliquam nunc nisl eu
-                          nisi.
+                          We are very passionate about what you take in.
                       </p>
                   </div>
                   <div className={`py-10 grid grid-cols-1 gap-5 md:grid-cols-2`}>
