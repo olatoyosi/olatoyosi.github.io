@@ -18,7 +18,7 @@ const Nav = () => {
                 <div className={` ${isToggled ? "flex":"hidden" } z-10 sm:flex fixed sm:relative bg-white flex-col text-sm font-semibold sm:flex-row mt-2 shadow-md sm:shadow-none sm:bg-transparent left-5 right-5 sm:left-0 sm:right-0 overflow-hidden rounded-md`}>
                     <NavMenu to={{pathname: "/", hash: "#top",}}>Home</NavMenu>
                     <NavMenu to={{pathname: "/", hash: "#about",}}>About</NavMenu>
-                    <NavMenu to={{pathname: "/", hash: "#contact",}}>Contact</NavMenu>
+                    <NavMenu to={{pathname: "/contact"}}>Contact</NavMenu>
                     <NavMenu to={{pathname: "/products"}}>Products</NavMenu>
                 </div>
             </div>

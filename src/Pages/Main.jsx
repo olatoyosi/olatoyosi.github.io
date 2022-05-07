@@ -1,5 +1,4 @@
 import Header from "../components/layouts/Header";
-import {BsTelephone} from "react-icons/bs";
 import Item from "../components/Item";
 import Testimonial from "../components/Testimonial";
 import ProductList from "../components/ProductList";
