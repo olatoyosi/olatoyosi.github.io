@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/rosh/static/css/main.d3aad8e0.css",
+    "main.js": "/rosh/static/js/main.0d00872a.js",
+    "static/js/787.3ae51417.chunk.js": "/rosh/static/js/787.3ae51417.chunk.js",
+    "static/media/footer.jpg": "/rosh/static/media/footer.19288ee2bc4318d06cbe.jpg",
+    "static/media/bgImg.png": "/rosh/static/media/bgImg.16bcf6862fd1fe98fdb4.png",
+    "static/media/pattern.png": "/rosh/static/media/pattern.7ac51e52fdc87a85476d.png",
+    "static/media/NotFound.png": "/rosh/static/media/NotFound.f327ef306b0606635df6.png",
+    "index.html": "/rosh/index.html",
+    "main.d3aad8e0.css.map": "/rosh/static/css/main.d3aad8e0.css.map",
+    "main.0d00872a.js.map": "/rosh/static/js/main.0d00872a.js.map",
+    "787.3ae51417.chunk.js.map": "/rosh/static/js/787.3ae51417.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3aad8e0.css",
+    "static/js/main.0d00872a.js"
+  ]
+}
