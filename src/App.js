@@ -3,7 +3,7 @@ import Main from "./Pages/Main";
 import ProductPage from "./Pages/ProductPage";
 import Layout from "./components/layouts/Layout";
 import ContactPage from "./Pages/ContactPage";
-import _404 from "./components/_404";
+import NotFoundPage from "./components/NotFoundPage";
 
 function App() {
     return (
@@ -13,7 +13,7 @@ function App() {
                     <Route index element={<Main/>}/>
                     <Route path="products" element={<ProductPage />}/>
                     <Route path="contact" element={<ContactPage/>}/>
-                    <Route path="*" element={<_404 />}/>
+                    <Route path="*" element={<NotFoundPage />}/>
                 </Route>
             </Routes>
         </BrowserRouter>

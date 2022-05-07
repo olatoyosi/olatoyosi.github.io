@@ -7,6 +7,7 @@ const usePagination = (data, perPage) => {
     const paginate = useCallback((pageNumber) => {
         setCurrentPage(pageNumber);
         setCurrentData(data.slice((pageNumber - 1) * perPage, pageNumber * perPage));
+    //    eslint-disable-next-line
     },[data, perPage])
 
     const handlePrev = useCallback(() => {
@@ -19,10 +20,12 @@ const usePagination = (data, perPage) => {
         if (currentPage < Math.ceil(data.length / perPage)) {
             paginate(currentPage + 1);
         }
+        //    eslint-disable-next-line
      },[currentPage, data])
 
     useEffect(()=>{
         paginate(currentPage);
+        //    eslint-disable-next-line
     }, [])
 
     return {
