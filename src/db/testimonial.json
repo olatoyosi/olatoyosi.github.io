@@ -22,5 +22,13 @@
     "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, euismod aliquam nunc nisl eu nisi.",
     "name": "Larry Diamond",
     "position": "Chief Technical Officer"
+  },
+  {
+    "id": 4,
+    "image": "https://res.cloudinary.com/jimlah/image/upload/v1652162087/rosh/person_aqzbeo.jpg",
+    "company": "Neon",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, euismod aliquam nunc nisl eu nisi.",
+    "name": "Avabel Neon",
+    "position": "CEO"
   }
 ]
