@@ -22,5 +22,11 @@
     "name": "Tomato",
     "price": "200",
     "image": "https://res.cloudinary.com/jimlah/image/upload/v1652161557/rosh/tomato-removebg-preview_lbq5jk.png"
+  },
+  {
+    "id": "5",
+    "name": "Banana",
+    "price": "400",
+    "image": "https://res.cloudinary.com/jimlah/image/upload/v1652162759/rosh/banana_enzbts.png"
   }
 ]
